@@ -50,7 +50,7 @@ $$
 
 # 题目
 
-[luogu P1082 同余方程 <模板>](https://www.luogu.com.cn/problem/P1082)
+[luogu P1082 同余方程 (模板)](https://www.luogu.com.cn/problem/P1082)
 
 题目中的 $ax\equiv b (\mod 1)$ 等价于 $ax+by=1$ , 求出一个特解 $x$ 后, 可得通解形式为 $x+kb$ (本题限制了 $gcd(a, b)=1$ ).
 
