@@ -25,13 +25,15 @@ exGcd 是基于 Gcd 的递归运算，计算形如 $ax+by=c$ 形式的不定方�
 
 因为:
 
-$$ a'=b \\ b'=a-\lfloor a/b \rfloor \times b$$
+$$ a'=b
+\newline
+b'=a-\lfloor a/b \rfloor \times b$$
 
 所以:带入前面的方程, 有:
 
 $$ 
 bx'+(a-\lfloor a/b \rfloor \times b)y'=g
-\\
+\newline
 ay'+b(x'-\lfloor a/b \rfloor \times b y')=g
 $$
 
@@ -39,7 +41,7 @@ $$
 
 $$
 x=y'
-\\
+\newline
 y=x'-\lfloor a/b \rfloor \times b \times y'
 $$
 
