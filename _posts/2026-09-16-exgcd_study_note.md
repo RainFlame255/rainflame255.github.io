@@ -1,7 +1,9 @@
 ---
 layout: default
-title:  数论学习笔记 ———— exGcd
+title:  数论学习笔记 -> exGcd
 ---
+
+# 数论学习笔记 —— exGcd
 
 exGcd 是基于 Gcd 的递归运算，计算形如 $ax+by=c$ 形式的不定方程的解的方法.
 
