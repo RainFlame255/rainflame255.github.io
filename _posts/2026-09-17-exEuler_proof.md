@@ -3,6 +3,15 @@ layout: default
 title:  数论学习笔记 -> exEuler 证明
 ---
 
+<script>
+  MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # 数论学习笔记 —— exEuler 证明
 
 </br>
