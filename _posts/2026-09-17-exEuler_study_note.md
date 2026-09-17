@@ -18,4 +18,4 @@ Euler定理可以很快速地求出在特定情境下, 在模意义下的幂. �
 
 ### 核心公式: 对于 $a^b(\mod m)$ , 当 $b\ge \varphi(m)$ 时, 有: $a^b\equiv a^{b\mod \varphi(m)+\varphi(m)}(\mod m)$
 
-[证明](/_posts/2026-09-17-exEuler_proof.md)比较繁琐, 不在此展开.
+[证明](/exEuler_proof)比较繁琐, 不在此展开.
