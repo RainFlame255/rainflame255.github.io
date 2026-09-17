@@ -14,7 +14,7 @@ title:  数论学习笔记 -> exEuler 证明
 
 # 数论学习笔记 —— exEuler 证明
 
-</br>
+
 
 ## 命题
 
@@ -24,13 +24,15 @@ $$
 a^b \equiv a^{b\mod \varphi(m)+\varphi(m)}(\mod m)
 $$
 
-</br></br>
+
+
 
 ## 证明
 
 先分为以下两种情况讨论:
 
-</br></br>
+
+
 
 ### Case 1: $a$ 与 $m$ 互质
 
@@ -50,7 +52,9 @@ $$
 
 Case 1 讨论结束.
 
-</br></br>
+
+
+
 
 ### Case 2: $a$ 与 $m$ 不互质
 
@@ -58,7 +62,8 @@ Case 1 讨论结束.
 
 接下来, 只需证明对于任意 $p_i^{t_i}$ , $a^b$ 与 $a^{b\mod \varphi(m)+\varphi(m)}$ 对这个质数取余的结果相等即可.
 
-</br>
+
+
 
 #### 简要证明:
 
@@ -68,20 +73,24 @@ Case 1 讨论结束.
 
 证明是容易的. 由上述条件, 可知 $a-b$ 同时是 $m_1$ 和 $m_2$ 的倍数, 又 $m_1, m_2$ 互质, 因此 $a-b$ 是 $m_1m_2$ 的倍数, 命题得证.
 
-</br>
+
+
 
 回到原命题的证明上.
 
 讨论 $a$ 与 $p_i$ 的关系.
 
-</br>
+
+
 
 ### Case 2-i $a$ 与 $p_i^{t_i}$ 互质
 
 $\varphi(m)是\varphi(p_i^{t_i})$ 的倍数 (因为 $\varphi$ 是积性函数) 
 此时也退化到了euler定理的适用情形, 即Case 1. 证明见上面的Case 1.
 
-</br>
+
+
+
 
 ### Case 2-ii $a$ 与 $p_i{t_i}$ 不互质
 
@@ -96,6 +105,8 @@ $\varphi(m)是\varphi(p_i^{t_i})$ 的倍数 (因为 $\varphi$ 是积性函数)
 
 又等式的传递, 可知 $b\ge t_i$ 以及 $b\mod \varphi(m)+\varphi(m) \ge t_i$ , 因此可得 $a^b\equiv 0(\mod p_i^{t_i})$ 以及 $a^{b\mod \varphi(m)+\varphi(m)}\equiv 0(\mod p_i^{t_i})$
 
-</br>
+
+
+
 
 命题得证.
